@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Kalam:wght@700&display=swap');
+
+
+:root {
+    --primary-colors: #ffc857ff;
+    --secondry-colors: #e9724cff;
+    --ascent1-colors: #c5283dff;
+    --ascent2-colors: #011627ff;
+    
+    --heading-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Kalam:wght@700&display=swap', kalam-bold;
+    --paragraph-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap', fira-sans;
+
+    --nav-background-color:#c5283dff;
+    --nav-link-color: rgb(199, 216, 84);
+    --nav-hover-link-color: rgb(74, 157, 231);
+    --nav-hover-background-color:rgb(175, 32, 231);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960 pixels;
+    padding: 20;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-colors)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--ascent2-colors);
+}
+
+p {
+    padding-left: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
