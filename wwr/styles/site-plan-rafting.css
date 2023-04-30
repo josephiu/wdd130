@@ -5,17 +5,17 @@
 
 :root {
     --primary-color: #ffc857ff;
-    --secondry-color: #e9724cff;
+    --secondary-color: #e9724cff;
     --accent1-color: #c5283dff;
     --accent2-color: #011627ff;
     
     --heading-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Kalam:wght@700&display=swap', kalam-bold;
     --paragraph-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap', fira-sans;
 
-    --nav-background-color:#c5283dff;
-    --nav-link-color: rgb(199, 216, 84);
-    --nav-hover-link-color: rgb(74, 157, 231);
-    --nav-hover-background-color:rgb(175, 32, 231);
+    --nav-background-color:rgb(52, 3, 10);
+    --nav-link-color: rgb(26, 9, 80);
+    --nav-hover-link-color: rgb(16, 102, 193);
+    --nav-hover-background-color:rgb(3, 3, 52);
 }
 
 body {
