@@ -4,10 +4,10 @@
 
 
 :root {
-    --primary-colors: #ffc857ff;
-    --secondry-colors: #e9724cff;
-    --ascent1-colors: #c5283dff;
-    --ascent2-colors: #011627ff;
+    --primary-color: #ffc857ff;
+    --secondry-color: #e9724cff;
+    --accent1-color: #c5283dff;
+    --accent2-color: #011627ff;
     
     --heading-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Kalam:wght@700&display=swap', kalam-bold;
     --paragraph-font:'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap', fira-sans;
@@ -26,12 +26,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-colors)
+    color: var(--primary-color)
 }
 
 header {
     padding: 20px;
-    background-color: var(--ascent2-colors);
+    background-color: var(--accent2-color);
 }
 
 p {
