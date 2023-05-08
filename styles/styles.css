@@ -68,8 +68,10 @@ p {
 aside h2 {
     position: absolute;
     top:0px;
-    left: 110px;
-    margin: 11px;
+    left: 70px;
+    margin: 40px;
+    color: #ffffff;
+    text-shadow: 0 3px  black;
     
 
 }
