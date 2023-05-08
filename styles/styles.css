@@ -27,6 +27,10 @@ h1 {
     margin: 1rem;
 }
 
+.box a, nav a {
+    text-decoration: none;
+}
+
 /*img {
     width: 150px;
     height: auto;

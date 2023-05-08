@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600;800;900&family=Signika+Negative:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #ffc857ff;
+    --secondary-color: #e9724cff;
+    --accent1-color: #c5283dff;
+    --accent2-color: #011627ff;
+
+    --heading-font: 'Merienda';
+    --paragraph-font: 'Signika Negative', sans-serif;
+
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0px;
+    border: none
+
+}
+
+
+.hero {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background: radial-gradient(#c5283dff, #011627ff);
+
+}
+
+
+.hero img {
+    opacity: 55%;
+    width: 100%;
+
+}
+
+.hero h1 {
+    position: absolute;
+    margin: 40px;
+    top: 1px;
+    left: 350px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: rgb(151, 208, 226);
+    font-size: 400%;
+    text-shadow: 0 0 25px #000000;
+
+}
+
+
+article {
+    width: 720px;
+    position: absolute;
+    border: none;
+    padding: 1em;
+    margin: 10em;
+    top: 10px;
+    right: 11%;
+    background: var(--accent1-color);
+    box-shadow: 0 0 25px #000000;
+    text-align: center;
+    
+
+}
+
+.hero article img {
+    float: right;
+    width: 25%;
+    opacity:unset;
+    padding: 1rem;
+        
+}
+
+.hero article p {
+    color: #ffffff;
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    text-align: justify;
+    padding: 1rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+} 
+     
+
+
+
+section {
+    margin: 1em;
+}
+section h2{
+    color:var(--secondary-color);
+    padding: 2px;
+    margin-right: 5px;
+}
+
