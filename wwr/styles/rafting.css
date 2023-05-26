@@ -435,3 +435,155 @@ button:hover {
     font-size: 12pt;
     text-align: left;
 }
+
+#backdrop {
+    background-color: aqua;
+    background-image: url("../images/waterbackround.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0 ;
+    
+    
+}
+.layer2{
+background-color:#ffffff;
+max-width: 1200px;
+
+}
+
+#welcome {
+    background-color: var(--primary-color);
+    max-width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#welcome h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 35px;
+    color: var(--secondary-color);
+    
+}
+#welcome p{
+    margin: 2rem   2rem;
+    text-align: center;
+}
+
+
+.layer2 h2{
+   color: #a67535;
+   font-family: var(--paragraph-font);
+}
+
+
+
+
+#part2flex{
+    display: flex;
+    height: 400px;
+    justify-content:space-around;
+    
+}
+
+#part2flex div {
+    width: 350px;
+    height: 300px;
+    border:#a67535;
+    color:rgb(14, 7, 7);  
+}
+
+#part2flex div img{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    border: solid #a67535;
+}
+
+#part2flex div h4 {
+    text-align: left;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #a67535;
+}
+
+
+#part2flex div p {
+    text-align: left;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+
+table {
+    
+    width: 50%;
+}
+
+
+#part3flex {
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0.5rem;
+    justify-content: space-evenly;
+
+        
+}
+
+#part3flex th{
+    background-color: #a67535;
+    font-size: small;
+    text-align: left;
+    font-family: var(--paragraph-font);
+    color: #ebf8e6;
+    padding: 0.5rem;
+}
+
+tr p{
+    text-align: left;
+    color: black;
+    
+}
+
+#part3flex td{
+    background-color: #e8e8e8;
+    text-align: left;
+    color: black;
+    padding: 0.5rem;
+    
+}
+
+#layerbox {
+    background-color: #a67535;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+#layerbox {
+    font-family: var(--paragraph-font);
+
+}
+
+#form8 {       
+    border-radius: .5rem;
+    
+    
+}
+
+#form8 button {
+    position: none;
+    
+    text-align: center;
+    font-size: 2rem;
+    
+}
+    
+#form8 button:hover {
+        background-color: rgb(80, 199, 16);
+   
+    padding: 0px;
+}
