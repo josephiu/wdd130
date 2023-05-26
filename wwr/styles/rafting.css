@@ -203,7 +203,7 @@ section h2{
 
 .flex4 div p {
     text-align: center;   
-
+    
 }
 
 .flex5 {
@@ -212,6 +212,11 @@ section h2{
     justify-content: center;
     align-items: center;
     
+}
+.wire  , .flex5 p {
+    text-decoration: none;
+    font-size:20px;
+    font-family:var(--heading-font);
 }
 
 .sociallinks {
@@ -378,8 +383,8 @@ input, textarea {
 }
 
 input[type="checkbox"], [type="radio"] {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 }
 
 button {
