@@ -48,7 +48,7 @@
     background-color: #c5283dff;
     border-radius: 1em;
     padding: 0px 4px 0px 4px;
-    color: #ffffff;
+    color: #5e0909;
     
 }
 
@@ -583,8 +583,7 @@ tr p{
 }
 
 #form8 button {
-    position: none;
-    
+       
     text-align: center;
     font-size: 2rem;
     
@@ -636,7 +635,6 @@ tr p{
 
 .homeflex div{
     margin: 0;
-    box-shadow: 20  10px;
 }
 
 .padding1 h2 {
@@ -644,7 +642,7 @@ tr p{
     left: 300px;
     padding-top: 0;
     font-family: var(--heading-font);
-    color: #e09711;
+    color: #4f09da;
     font-size: 45pt;
     text-shadow: 5px 10px 10px #5d0303;
     position: absolute;
@@ -656,7 +654,7 @@ tr p{
     font-family: var(--heading-font);
     color: #190647;
     font-size: 15pt;
-    text-shadow: 10px 10 25px #000000;
+    text-shadow: 10px 10px 25px #000000;
     text-align: center;
     margin: 10%;
 
@@ -669,7 +667,7 @@ tr p{
     text-align: center;
     margin-left: 0rem;
     box-shadow: 8px 10px 25px rgb(96, 10, 10);
-    background-color: #a67535;
+    background-color: #e98440;
     
 }
 
@@ -695,8 +693,8 @@ tr p{
 #homeflex2 div {
     width: 250px;
     height: 200px;
-    border:#a67535;
-    color:rgb(14, 7, 7);  
+     
+    
 }
 
 #homeflex2 div img{
@@ -704,7 +702,9 @@ tr p{
     height: 80%;
     justify-content: center;
     border: solid #a67535;
-    box-shadow: 0 0 10px;
+    box-shadow: 25px 10px 50px black;
+
+    
 }
 
 #part2flex div h4 {
@@ -731,7 +731,7 @@ tr p{
     }
 
 #homeflex3 div img {
-    width: 600x;
+    width: 650px;
     height: 450px;
     justify-content: flex-end;
     align-items: stretch;
@@ -755,10 +755,9 @@ tr p{
 }
 
 #middle button {
-    position: centter;
     margin-left: 20px;
-    top: 1118px;
-    left: 600px;
+    top: 1050px;
+    left: 559px;
     position: absolute;
     background-color: #a67535;
 
